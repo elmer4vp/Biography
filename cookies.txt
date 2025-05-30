@@ -1,0 +1,16 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.toastmasters.org	TRUE	/	FALSE	1999999999	shell#lang	en
+www.toastmasters.org	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	s52mzh1jsrhxjpsqbw54pyqf
+www.toastmasters.org	TRUE	/	FALSE	1999999999	SC_ANALYTICS_GLOBAL_COOKIE	fc444062060f42cfae4903926ea390a8|False
+www.toastmasters.org	TRUE	/	FALSE	1999999999	sxa_site	toastmasters_live
+www.toastmasters.org	TRUE	/	FALSE	1999999999	ARRAffinity	f575f77aa676f8fe3f3ecd6f7becb76fde1c2e6e36e855e23e8c1f2e78331426
+www.toastmasters.org	TRUE	/	FALSE	1999999999	ARRAffinitySameSite	f575f77aa676f8fe3f3ecd6f7becb76fde1c2e6e36e855e23e8c1f2e78331426
+www.toastmasters.org	TRUE	/	FALSE	1999999999	SameSite	None
+.securitymetrics.com	TRUE	/	FALSE	1999999999	visid_incap_2488757	phBvMkvBTbujE2ffOlpbS6HJg2cAAAAAQUIPAAAAAAAmrPtJXvRtaIz0F2li74AQ
+.securitymetrics.com	TRUE	/	FALSE	1999999999	incap_ses_1815_2488757	E9I2dQqjCTSEjUcsHy0wGaHJg2cAAAAAhM65ZryluTpdCUhdr9foAw==
+www.securitymetrics.com	TRUE	/	FALSE	1999999999	SameSite	None
+ti-website-prod-sc103-377100-cd.azurewebsites.net	TRUE	/	FALSE	1999999999	ARRAffinity	77f12f85c9afc4c4219e1ebcbabf3c363c124c1272c6f1766e41bee0c3ed9b13
+jcdn.toastmasters.org	TRUE	/	FALSE	1999999999	ARRAffinitySameSite	77f12f85c9afc4c4219e1ebcbabf3c363c124c1272c6f1766e41bee0c3ed9b13
+ti-website-prod-sc103-377100-cd.azurewebsites.net	TRUE	/	FALSE	1999999999	SameSite	None
+

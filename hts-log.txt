@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 12 Jan 2025 08:54:10 at https://www.toastmasters.org/About/Board%20of%20Directors/International%20Officer%20and%20Director%20Candidates/ElmerHill +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.toastmasters.org/About/Board%20of%20Directors/International%20Officer%20and%20Director%20Candidates/ElmerHill -O1 "C:\My Web Sites\2024 2nd VP Candidates" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:54:12	Warning: 	Found for https://www.toastmasters.org/robots.txt
+08:54:12	Warning: 	File has moved from https://www.toastmasters.org/robots.txt to /UnexpectedError?aspxerrorpath=/robots.txt
+08:54:55	Error: 	"Not Found" (404) at link https://www.toastmasters.org/About/Board of Directors/International Officer and Director Candidates/edge.fullstory.com/s/fs.js (from https://www.toastmasters.org/About/Board of Directors/International Officer and Director Candidates/ElmerHill)
+08:54:58	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.toastmasters.org/About/Board of Directors/International Officer and Director Candidates/ElmerHill)
+08:54:58	Error: 	"Forbidden" (403) at link https://www.securitymetrics.com/images/sm_ccsafe_whborder.gif (from https://www.toastmasters.org/About/Board of Directors/International Officer and Director Candidates/ElmerHill)
+08:54:58	Error: 	"Not Found" (404) at link https://jcdn.toastmasters.org/Content/images/globals/icon-sprite.png (from https://jcdn.toastmasters.org/cassette.axd/asset/Content/css/Site.css?aafda25c6cbe6ef7c7d51d9eeb229c3080489a23)
+08:54:58	Error: 	"Not Found" (404) at link https://jcdn.toastmasters.org/Content/images/globals/icon-search.png (from https://jcdn.toastmasters.org/cassette.axd/asset/Content/css/Site.css?aafda25c6cbe6ef7c7d51d9eeb229c3080489a23)
+08:54:58	Error: 	"Not Found" (404) at link https://jcdn.toastmasters.org/Content/images/globals/indicator-touch.png (from https://jcdn.toastmasters.org/cassette.axd/asset/Content/css/Site.css?aafda25c6cbe6ef7c7d51d9eeb229c3080489a23)
+08:54:58	Error: 	"Not Found" (404) at link https://jcdn.toastmasters.org/Content/images/examples/hero-banners-bg-left.jpg (from https://jcdn.toastmasters.org/cassette.axd/asset/Content/css/Site.css?aafda25c6cbe6ef7c7d51d9eeb229c3080489a23)
+08:54:58	Error: 	"Not Found" (404) at link https://jcdn.toastmasters.org/Content/images/examples/hero-banners-bg-right.jpg (from https://jcdn.toastmasters.org/cassette.axd/asset/Content/css/Site.css?aafda25c6cbe6ef7c7d51d9eeb229c3080489a23)
+08:54:58	Error: 	"Not Found" (404) at link https://jcdn.toastmasters.org/Content/images/examples/journey-timeline-bg-small.jpg (from https://jcdn.toastmasters.org/cassette.axd/asset/Content/css/callouts.css?f103c57da27bffd2ff613de499394d56e2151e40)
+08:54:58	Error: 	"Not Found" (404) at link https://jcdn.toastmasters.org/Content/images/examples/journey-timeline-bg.jpg (from https://jcdn.toastmasters.org/cassette.axd/asset/Content/css/callouts.css?f103c57da27bffd2ff613de499394d56e2151e40)
+08:54:58	Error: 	"Not Found" (404) at link https://www.toastmasters.org/About/Board of Directors/International Officer and Director Candidates/v2public/styles/LiveChatWidgetFrame.css (from https://oc-cdn-ocprod.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js)
+08:54:58	Error: 	"Not Found" (404) at link https://www.toastmasters.org/About/Board of Directors/International Officer and Director Candidates/v2public/htmls/chatv2.html (from https://oc-cdn-ocprod.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 49 seconds : 83 links scanned, 70 files written (5094923 bytes overall) [3505953 bytes received at 71550 bytes/sec], 2147433 bytes transferred using HTTP compression in 44 files, ratio 22%, 3.3 requests per connection
+(12 errors, 2 warnings, 0 messages)
