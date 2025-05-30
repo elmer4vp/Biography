@@ -1,0 +1,218 @@
+/* Fonts */
+/* Colors */
+/*Screen Sizes break points*/
+.btn {
+  font-family: "Gotham A", "Gotham B", "Lato", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+.btn.btn-default {
+  color: black;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 0 10px 0 10px;
+}
+.btn.btn-default:hover,
+.btn.btn-default:focus,
+.btn.btn-default:active {
+  background-color: lightslategray;
+}
+.btn.btn-primary {
+  background-color: #772432;
+  background-image: none;
+}
+.btn.btn-primary:hover {
+  background-color: #6A202C;
+}
+.btn.btn-white {
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  color: #772432;
+}
+.btn.btn-tertiary {
+  background-color: #003143;
+}
+.btn.btn-tertiary:hover,
+.btn.btn-tertiary:focus,
+.btn.btn-tertiary:active,
+.btn.btn-tertiary.active {
+  background-color: #002939;
+  color: #ffffff;
+}
+.btn.btn-tertiary.btn-sm {
+  font-size: 12px;
+  padding: 5px 12px;
+}
+.btn.btn-alternate.btn-sm {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 12px;
+}
+.btn.btn-search,
+.btn.search-toggle {
+  height: 37px;
+  border: none;
+  margin: 0;
+  min-width: 0;
+}
+.btn.joinBtn {
+  padding: 6px 26px;
+}
+.btn.btn-alternate {
+  background-color: #dcdcdc;
+  color: #444;
+}
+.btn.btn-alternate:focus,
+.btn.btn-alternate:active,
+.btn.btn-alternate.active,
+.btn.btn-alternate:hover {
+  background-color: #ccc;
+}
+.btn.btn-small {
+  padding: 6px 20px;
+  font-size: 14px;
+}
+.btn.btn-large {
+  font-size: 18px;
+}
+a.btn.btn-tertiary {
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .btn-block-xs-only {
+    display: block;
+    width: 100%;
+  }
+  .btn-block-xs-only.hidden {
+    display: none;
+  }
+  .btn-block-xs-only + .btn-block-xs-only,
+  .btn-block-xs-only + .btn-block {
+    margin-top: 5px;
+  }
+  .btn-block-next {
+    margin-top: 5px;
+  }
+}
+.formButtons {
+  min-width: 100px;
+}
+.dropdown-toggle {
+  font-family: "Gotham A", "Gotham B", "Lato", "Arial", sans-serif;
+  font-weight: 400;
+}
+.form-group label {
+  font: normal 16px "SourceSansPro-Regular", sans-serif;
+}
+select {
+  font-family: "Gotham A", "Gotham B", "Lato", "Arial", sans-serif;
+  font-weight: 400;
+}
+#btnSiteSearch2 {
+  height: 40px;
+}
+@media (min-width: 768px) {
+  #btnSiteSearch2 {
+    height: 54px;
+  }
+}
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.loader {
+  margin: 0px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 3px solid rgba(255, 255, 255, 0.2);
+  border-right: 3px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  border-left: 3px solid #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@media (min-width: 576px) {
+  .float-sm-left {
+    float: left !important;
+  }
+  .float-sm-right {
+    float: right !important;
+  }
+}
+@media (min-width: 768px) {
+  .float-md-left {
+    float: left !important;
+  }
+  .float-md-right {
+    float: right !important;
+  }
+}
+@media (min-width: 992px) {
+  .float-lg-left {
+    float: left !important;
+  }
+  .float-lg-right {
+    float: right !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .btn.btn-search,
+  .btn.search-toggle {
+    height: 29px;
+  }
+}
+/*Custom*/
+.designatehead {
+  grid-gap: 10px !important;
+}
+button#pathways-go-back {
+  border: 1px solid #772432;
+  border-radius: 3px;
+  color: #772432;
+  background-color: #fff;
+  margin-right: 15px;
+}
+.go-back-to-preferences-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.additional-paths2 .proxyholderboxcontain.delegatetype {
+  margin-left: 0 !important;
+}
+/*Custom-End*/
+.btn_cus_wid {
+  width: 100%;
+}

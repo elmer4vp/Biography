@@ -1,0 +1,303 @@
+/* ================================================================
+   MODIFIED STYLES 
+   ================================================================ */
+
+/* HEADER
+   ================================================================ */
+
+.siteLogo .logo {
+    /* Logo Text 2X*/
+    background-image: url("https://jcdn.toastmasters.org/~/Media/243AB9DDE6504AF59C7855175C62ACDE.ashx");
+}
+
+.lt-ie9 .siteLogo .logo {
+    /* Logo Text*/
+    background-image: url("https://jcdn.toastmasters.org/~/Media/A067FCC9317740D69ECDC2C5FAB07339.ashx");
+}
+
+@media (min-width:992px) {
+    .affix .siteLogo .logo {
+        background-image: url("https://jcdn.toastmasters.org/~/Media/243AB9DDE6504AF59C7855175C62ACDE.ashx");
+    }
+}
+
+@media (min-width:768px) {
+    .siteLogo .logo {
+        /* Logo 2X*/
+        background-image: url("https://jcdn.toastmasters.org/~/Media/830B4574E42F4FC5AFD07D6830F7618E.ashx");
+    }
+
+    .no-backgroundsize .siteLogo .logo {
+        /* Logo 97x81*/
+        background-image: url("https://jcdn.toastmasters.org/~/Media/372ED0640FB942AC91FC74FCBB2A99AF.ashx");
+    }
+}
+
+@media (min-width:992px) {
+    /* Logo */
+    .no-backgroundsize .siteLogo .logo {
+        background-image: url("https://jcdn.toastmasters.org/~/Media/7A84292B369445B1B57C28D7F0395DAC.ashx");
+    }
+}
+
+/* SMALLER DEVICE MENU WRAP
+   ================================================================ */
+
+.menuWrap .logo {
+    background: url("https://jcdn.toastmasters.org/~/Media/243AB9DDE6504AF59C7855175C62ACDE.ashx") no-repeat 0 50%;
+    background-size: 182px 29px;
+}
+
+/* ================================================================
+   SPECIFIC MODULE STYLES 
+   ================================================================ */
+
+/* HERO MASONRY-ESQUE BANNERS
+   ================================================================ */
+
+@media (min-width:1200px) {
+    .heroBanners:before {
+        background: url("https://jcdn.toastmasters.org/~/Media/812D684B724441919721F37697CD2B05.ashx") no-repeat top right;
+    }
+
+    .heroBanners:after {
+        background: url("https://jcdn.toastmasters.org/~/Media/2ECC0F2A939843EBA2F0E2A4E74C02FB.ashx") no-repeat top left;
+    }
+}
+
+/* JOURNEY TIMELINE CALLOUTS
+   ================================================================ */
+
+.timelineCallouts {
+    background: url("https://jcdn.toastmasters.org/~/Media/5EED5FCAEBF54C23B881837422E39103.ashx") no-repeat 50% 0;
+}
+
+@media (min-width:768px) {
+    .timelineCallouts {
+        background: url("https://jcdn.toastmasters.org/~/Media/5EED5FCAEBF54C23B881837422E39103.ashx") no-repeat 50% 0;
+    }
+}
+
+/* LOCATIONS CALLOUTS
+   ================================================================ */
+
+.locationCallouts .map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* TOOL CALLOUTS
+   ================================================================ */
+
+/*.toolCallouts {
+    background: url("/~/Media/D382E4F14766444D80640890AB398A7F.ashx") no-repeat 50% 0;
+}*/
+
+.toolCallouts.noBG {
+    background: none;
+}
+
+/* PROFILE PAGE
+   ================================================================ */
+
+.photoEditContainer {
+    position: relative;
+}
+
+.photoEdit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 500;
+    padding-right: 5px;
+    font-size: .9em;
+}
+
+pre {
+    font-family: arial,sans-serif;
+    border: none;
+    background: #fff;
+    color:#000;
+    font-size: 0.9em;
+    line-height: 1.42857;
+}
+
+
+
+/* ANNOUNCEMENT BAR
+   ================================================================ */
+.announcement {
+    background-color: #fff;
+    min-height: 50px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 20px;
+	padding: 15px;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.announcement_close {
+    float: right;
+    margin:17px 20px 0 20px;
+    cursor: pointer;    
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    vertical-align: text-top;
+ 
+}
+
+.announcementBG {
+    background-color: #fffaba;
+    min-height: 50px;
+    width:100%;
+    z-index: -1;
+    display: inline-block;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.announcement_hide {
+    display: none;   
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+
+/* DG shopping Top bar 
+   ================================================================ */
+.topHeader.DG_Shop {
+	background-color: #fff;
+	border-bottom: 3px solid #004165;
+}
+
+.DG_Shop a
+ {
+	color: #004165;
+}
+
+.DG_Shop a:hover
+ {
+	color: #004165; 
+}
+
+.extraNav .DG_Shop a:hover
+ {
+	color: #004165; 
+}
+
+.welcomeInfo.DG_Shop { color: #6f0123; }
+
+.welcomeInfo.DG_Shop :hover { color: #6f0123; }
+
+.affix .siteLogo .logo.DG_Shop { background-image: url("../../../file/Content/images/toastmasterslogotext2x_red-5d8829604a10268b02fa64d36929cc9b51ccb79e.png")}
+
+.DG_Shop ul li:before {
+    background: none repeat scroll 0 0 #d9d9d9;
+}
+.DG_Shop ul li:after {
+    background: none repeat scroll 0 0 #4c4c4c;
+}
+
+.find-a-club-static .modContent {
+    margin: 1em;
+}
+
+.authorBio .ad {
+    margin: 20px auto;
+}
+
+@media (min-width:768px) {
+    .find-a-club-static {
+	    height:470px;
+	    width: 100%;
+	    border-color:#666;
+	    background: url('https://jcdn.toastmasters.org/~/media/872294FEB662410C8DF13E4D6EBEDCB5.ashx') center center no-repeat #eee;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        overflow: hidden;
+    }
+
+    .find-a-club-static .modHead {
+        background-color: white;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 8px 0px;
+        box-shadow: 0 0 8px rgba(0,0,0,.4);
+    }
+}
+
+#billToCustomerForm label {
+    width: 75%;
+}
+
+#billToCustomerForm label.error {
+    margin: 0;
+}
+
+#billToCustomerForm input[type=checkbox] {
+    width: auto;
+    margin-right: 25px;
+}
+
+@media (min-width: 768px) {
+    .ui-tabs .ui-tabs-nav>li:first-child {
+        padding-left: 0px !important;
+    }
+}
+
+#products-list .desc>h3 {
+    margin-left: 0px !important;     
+}
+
+  #super-user-top-bar{
+        width: 100%;
+        height: 42px;
+        background: linear-gradient(to bottom, #69212d 0%, #892C3B 100%);
+        border-bottom: 2px dashed #f2df74;
+        color: #f2df74;
+        line-height: 42px;
+    }
+
+   #super-user-top-bar .container{
+       height: 42px !important;
+   }
+
+   #super-user-top-bar p{
+       margin: 0 !important;
+   }
+
+   #super-user-top-bar ul.quick-links{
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       float: left;
+       margin-right: 20px;
+       margin-left: 10px;
+   }
+
+   #super-user-top-bar ul.quick-links > li{
+       display: inline-block;
+       float: left;
+       margin-right: 10px;
+   }
+
+   #super-user-top-bar ul.quick-links > li:last-of-type{
+       margin-right: 0px;
+   }
+
+   #super-user-top-bar select {
+       color: black;
+   }
+

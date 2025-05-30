@@ -1,0 +1,222 @@
+:root {
+    --secondary: #006094;
+    --csptabs: #772432;
+    --csptext: #333;
+    --csptext-light: #666;
+    --gray: #e8e8e8;
+    --gray-light: #F5F5F5;
+    --gray-extra-light: #E0E0E0;
+    --white: #fff;
+    --black: #000;
+    --black-light: #707070;
+}
+
+.mainhead h1:not(.title),
+.myprofile .myprofileinfo .myprofiletext h1,
+.eduClub h1,
+.planClub h1 {
+    font-family: "Gotham A", "Gotham B", "Lato" !important;
+    font-weight: 700 !important;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black) !important;
+    margin: 0 0 26px;
+    padding: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.mainhead h3,
+.homeboxes h3,.homeboxes1 h3,.clubGoals .clubGoalsheading h3,
+.bannersec .owl-carousel .owl-text h3,
+.planRating .moreInfoText,.planRating .planRatingText,
+.planRating .achieve h3 {
+    font-family: "Gotham A", "Gotham B", "Lato" !important;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--csptext);
+    margin: 0;
+    word-break: break-all;
+}
+
+.mainhead p,
+.homeboxes p,
+.myprofile .myprofileinfo .myprofiletext .myprofiletextdetail p,
+.planClub .planInfo {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: var(--csptext);
+    font-family: 'Lato', sans-serif;
+}
+
+/*tooltip here*/
+
+:root {
+    --tooltipwidth1: 200px;
+}
+
+.i_m_tooltip .hover_me {
+    height: inherit;
+    display: block;
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+    .i_m_tooltip .hover_me:hover {
+        cursor: pointer;
+    }
+
+    .i_m_tooltip .hover_me .hover_contant {
+        width: var(--tooltipwidth1);
+        visibility: hidden;
+        opacity: 0;
+        /*min-width: 5rem;*/
+        position: absolute;
+        transition: all 0.5s ease;
+        display: none;
+        left: 50%;
+        transform: translateX(-50%);
+        color: var(--csptext);
+    }
+
+.i_m_tooltip.right_tooltip .hover_me .hover_contant {
+    transform: translateX(-5%);
+}
+
+
+.i_m_tooltip > .hover_me:hover > .hover_contant,
+.i_m_tooltip > .hover_me .hover_contant:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+
+.i_m_tooltip .hover_me .hover_contant > div {
+    clear: both;
+    width: 100%;
+}
+
+.i_m_tooltip .hover_contant {
+    padding: 10px;
+    top: calc(100% + 10px);
+    box-shadow: 0px 6px 9px #00000029;
+    z-index: 999;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+    /*.i_m_tooltip .hover_contant.hover_contant1 {
+}*/
+
+    .i_m_tooltip .hover_contant > div:before {
+        content: '';
+        background: url(https://jcdn.toastmasters.org/cassette.axd/file/Content/images/ClubSuccessPlan/image/cspimg/Aright-d77f1b348417e45ba7512f577583fc2c60cf41ec.svg);
+        background-size: 16px;
+        width: 100%;
+        height: 20px;
+        display: inline-block;
+        position: absolute;
+        background-repeat: no-repeat;
+        top: -13px;
+        left: 0;
+        background-position: center 0;
+    }
+
+.i_m_tooltip.right_tooltip .hover_contant > div:before {
+    background-position: 0 0;
+}
+
+.infoicon {
+    height: 24px;
+    margin-left: 5px;
+}
+
+
+
+/*Custom*/
+
+.mainhead h2,
+.homeboxes h2, .homeboxes1 h2, .clubGoals .clubGoalsheading h2,
+.bannersec .owl-carousel .owl-text h2,
+.planRating .moreInfoText, .planRating .planRatingText,
+.planRating .achieve h2 {
+    font-family: "Gotham A", "Gotham B", "Lato";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--csptext);
+    margin: 0;
+    word-break: break-all;
+}
+
+ .myprofile .prosettings {
+    position: absolute;
+    height: 30px;
+    top: 0;
+    right: 0;
+}
+.headerdrop.prosettings.i_m_tooltip .hover_me .hover_contant {
+    height: fit-content;
+    flex-direction: column;
+    transform: translateX(0);
+    align-items: flex-start;
+}
+.headerdrop.prosettings.i_m_tooltip .hover_me .hover_contant div {
+    padding: 0;
+}
+.prosettings.i_m_tooltip .hover_me .hover_contant a {
+    color: var(--csptext);
+    padding: 9px 0 7px 23px;
+    text-align: left;
+    width: 100%;
+}
+.prosettings.i_m_tooltip .hover_me .hover_contant a:focus,
+.prosettings.i_m_tooltip .hover_me .hover_contant a:hover {
+    background: #F5F5F5;
+}
+    .prosettings.i_m_tooltip .hover_me .hover_contant {
+    width: 168px;
+    height: 45px;
+    left: 0;
+    transform: translateX(-85%);
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    box-shadow: 0px 3px 6px #00000016;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+        .prosettings.i_m_tooltip .hover_me .hover_contant div {
+            font-family: "Gotham A", "Gotham B", "Lato";
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            color: var(--csptext);
+            padding-left: 24px;
+        }
+
+     .prosettings.i_m_tooltip .hover_contant > div:before {
+        content: none;
+    }
+
+.topdropdown {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    color: #f2df74;
+}
+
+.headerdrop .welcomeInfo {
+    margin-right: 44px;
+}
+
+.extraNav .logout {
+    display: none;
+}

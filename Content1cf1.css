@@ -1,0 +1,155 @@
+/* Fonts */
+/* Colors */
+/*Screen Sizes break points*/
+@keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+}
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+}
+body .mainContent .pageHead .title {
+  color: #333333;
+}
+body h1:not(.title) {
+  font-family: "Gotham A", "Gotham B", "Lato", "Arial", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #333333;
+}
+body .loading-dots:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
+  content: "\2026";
+  /* ascii code for the ellipsis character */
+  width: 0;
+}
+body .siteSearchForm {
+  display: inline;
+}
+body .siteSearchForm .siteSearch .form-group {
+  margin-bottom: 0;
+}
+body .glimpse-nowrap {
+  z-index: 9999 !important;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-right-not-xs,
+.text-right-not-sm,
+.text-right-not-md,
+.text-right-not-lg {
+  text-align: right;
+}
+.floating-footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  font: normal 16px "SourceSansPro-Regular", sans-serif;
+  width: 100%;
+  z-index: 2;
+  border-top: 1px solid #A9B2B1;
+}
+.floating-footer p {
+  margin: 0;
+}
+.floating-footer .float-footer-buttons-container .btn:not(:last-child) {
+  margin-right: 15px;
+}
+.floating-footer.is_sticky {
+  position: fixed;
+  bottom: 0;
+}
+.floating-footer.is_unsticky {
+  position: relative;
+  margin-bottom: -60px;
+}
+@media print {
+  .floating-footer {
+    border-top: none;
+  }
+}
+@media (max-width: 767px) {
+  .text-right-not-xs {
+    text-align: inherit;
+  }
+  .text-right-xs {
+    text-align: right;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .text-right-not-sm {
+    text-align: inherit;
+  }
+  .text-right-sm {
+    text-align: right;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .text-right-not-md {
+    text-align: inherit;
+  }
+  .text-right-md {
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) {
+  .text-right-not-lg {
+    text-align: inherit;
+  }
+  .text-right-lg {
+    text-align: right;
+  }
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+a.link {
+  cursor: pointer;
+}
+a.link:hover {
+  text-decoration: underline;
+}
+.padding-xs {
+  padding: .25em;
+}
+.padding-sm {
+  padding: .5em;
+}
+.padding-md {
+  padding: 1em;
+}
+.padding-lg {
+  padding: 1.5em;
+}
+.padding-xl {
+  padding: 3em;
+}
+.padding-top-xs {
+  padding-top: .25em;
+}
+.padding-top-sm {
+  padding-top: .5em;
+}
+.padding-top-md {
+  padding-top: 1em;
+}
+.padding-top-lg {
+  padding-top: 1.5em;
+}
+.padding-top-xl {
+  padding-top: 3em;
+}
+.selectPreferencesTitle {
+  margin-bottom: 50px !important;
+}
+.selectPreferencesIcon {
+  margin-bottom: 3.125em;
+}

@@ -1,0 +1,182 @@
+/* 2024 Centennial Website - Blue Theme */
+.blueTheme header.mainHeader {
+    background: linear-gradient(to right, #004165 0%, #011f2f 100%) !important;
+    border-top: 42px solid transparent;
+}
+
+.blueTheme .siteLogo .slogan {
+    display: none;
+}
+
+.blueTheme .extraNav ul li:before, .siteSearch .form-control {
+    background: #ffffff !important;
+}
+
+.blueTheme .siteWrap .btn-secondary {
+    color: #004165;
+    background: #ffffff;
+}
+
+    .blueTheme .siteWrap header .btn-secondary:hover {
+        background: none;
+        color: #fff;
+        border: 2px solid rgba(255,255,255);
+    }
+
+    .blueTheme .siteWrap header .btn-secondary:focus, .blueTheme .siteWrap header .btn-secondary:active {
+        border: 2px solid rgba(255,255,255,0.5);
+        background: none;
+        color: #fff;
+    }
+
+.blueTheme .memberNav a {
+    color: #fff;
+}
+
+
+.blueTheme .mainMenu li a span {
+    font-size: 18px;
+}
+
+.blueTheme .mainMenu li a {
+    background: none !important;
+}
+
+    .blueTheme .mainMenu li a:hover {
+        background: linear-gradient(to bottom, #d4d5d0 1%, #aeb2b3 100%) !important;
+    }
+
+.blueTheme .mainMenu li:not(:first-child) a::before {
+    content: '';
+    background: #ffffff;
+    width: 1px;
+    height: 21px;
+    display: inline-block;
+    position: absolute;
+    top:68%;
+}
+
+.blueTheme .affix .mainMenu li:not(:first-child) a::before {
+    top: 36%;
+}
+
+.blueTheme .topHeader .navbar-toggle {
+    background: #022a3a;
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+    .blueTheme .topHeader .navbar-toggle:before {
+        box-shadow: none;
+        display: block;
+    }
+
+.blueTheme .affix .mainNav {
+    padding-left: 0 !important;
+}
+
+.blueTheme .topHeader .navbar-toggle .icon-group {
+    background: none
+}
+
+@media(min-width:992px) {
+    .blueTheme .extraNav .mobview, .extraNav .special {
+        display: none;
+    }
+
+    .blueTheme header {
+        border-top-width: 45px !important;
+    }
+}
+
+@media(min-width:768px) {
+
+    .blueTheme .extraNav .mobview, .extraNav ul li:after, .topHeader .navbar-toggle {
+        border: none;
+    }
+
+    .blueTheme .extraNav ul li:after {
+        display: none;
+    }
+}
+
+@media(min-width:1025px) {
+    header.affix + .pageTools, header.affix + .mainContent, header.affix + #wrap {
+        border-top: 99px solid #011f2f !important;
+    }
+
+    header.affix .siteLogo {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .blueTheme header .mainNav {
+        padding-left: 263px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .blueTheme .mainHeader .siteSearch {
+        background: #011f2f;
+    }
+
+    .blueTheme .topHeader .navbar-toggle, .blueTheme .memberNav .cartTotal, .blueTheme .extraNav .mobview {
+        border-right: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .blueTheme .extraNav {
+        border-top: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .blueTheme .special .search-toggle {
+        background: none;
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+        .blueTheme .special .search-toggle:active:focus {
+            background: none !important;
+        }
+
+    .extraNav .special {
+        border: none;
+    }
+}
+
+.blueTheme .menuWrap .menuTop {
+    background: #011f2f;
+}
+
+.blueTheme .footerTop {
+    background: #022A3A !important;
+}
+
+
+
+    .blueTheme .footerTop .content:before {
+        background: #011f2f;
+    }
+
+
+.blueTheme .menuTools .siteSearch {
+    background: none;
+}
+
+@media (max-width: 991px) {
+    .blueTheme .footerTop .container .content {
+        border-top: 1px solid #004165;
+    }
+
+    .blueTheme .menuTools .buttons li .btn.btn-primary {
+        background: #011f2f;
+        border: 1px solid #011f2f !important;
+    }
+
+    .extraNav .special {
+        border-right: none !important;
+    }
+
+    .blueTheme .mainMenu li:not(:first-child) a::before {
+        display: none;
+    }
+}

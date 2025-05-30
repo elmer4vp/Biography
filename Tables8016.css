@@ -1,0 +1,58 @@
+/* Fonts */
+/* Colors */
+/*Screen Sizes break points*/
+.table-bordered {
+  font-size: 16px;
+  border: 1px solid #A9B2B1;
+}
+@media print {
+  .table-bordered {
+    page-break-inside: avoid;
+  }
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  vertical-align: middle;
+  border-bottom: 0.1px solid #A9B2B1 !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+@media only screen and (max-width: 767px) {
+  .table-bordered > thead > tr > th,
+  .table-bordered > tbody > tr > th,
+  .table-bordered > tfoot > tr > th,
+  .table-bordered > thead > tr > td,
+  .table-bordered > tbody > tr > td,
+  .table-bordered > tfoot > tr > td {
+    border: none !important;
+  }
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  font-family: "Gotham A", "Gotham B", "Lato", "Arial", sans-serif;
+  color: black;
+  text-transform: none;
+  background-color: #f5f5f5;
+  padding: 15px 15px;
+  vertical-align: top;
+  font-weight: 500;
+}
+.table-bordered > tbody > tr > td {
+  padding: 10px 15px;
+  font-family: "SourceSansPro-Regular", sans-serif;
+}
+@media print {
+  .table-bordered > tbody > tr > td {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .table-bordered > tbody > tr > td {
+    clear: both;
+    padding: .25em .5em;
+  }
+}

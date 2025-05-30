@@ -1,0 +1,87 @@
+/* Fonts */
+/* Colors */
+/*Screen Sizes break points*/
+.modal-content .modal-header {
+  font: 20px "Gotham A", "Gotham B", "Lato", "Arial", sans-serif;
+  background-color: #fbfbfb;
+  padding: 25px;
+  font-weight: 500;
+}
+.modal-content .modal-header h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.modal-content .modal-body {
+  font: 16px "SourceSansPro-Regular", sans-serif;
+  padding: 20px 25px;
+}
+.modal-content .modal-content .modal-body {
+  font: 16px "SourceSansPro-Regular", sans-serif;
+  padding: 0 25px 15px;
+}
+.dialog-header {
+  border: none;
+  background: none;
+  background-color: #ffffff !important;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 35px 25px 35px !important;
+}
+.dialog-header h4 {
+  text-align: center;
+}
+.btn-cancel {
+  opacity: 1;
+  text-align: right;
+}
+.btn-cancel:hover {
+  opacity: 1 !important;
+}
+.img-cancel {
+  height: 14px;
+  width: 14px;
+}
+.deletelead-button {
+  width: 138px !important;
+}
+.modal-backdrop {
+  position: absolute;
+}
+@media (min-width: 768px) {
+  .modal-dialog.modal-lg .modal-body.container {
+    width: 598px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-dialog.modal-lg .modal-body.container {
+    width: 898px;
+  }
+}
+@media (max-width: 480px) {
+  .linebreak {
+    width: 100% !important;
+  }
+  h2.modal-title {
+    text-align: center;
+  }
+}
+@media (min-width: 400px) and (max-width: 480px) {
+  div#SearchResultsModal {
+    width: 32%;
+  }
+}
+@media (min-width: 321px) and (max-width: 389px) {
+  div#SearchResultsModal {
+    width: 28%;
+  }
+}
+@media (min-width: 390px) and (max-width: 399px) {
+  div#SearchResultsModal {
+    width: 30%;
+  }
+}
+@media (max-width: 320px) {
+  div#SearchResultsModal {
+    width: 25%;
+  }
+}
